@@ -323,7 +323,7 @@ button { color: inherit; font: inherit; }
   .hero-kicker span:last-child { text-align: right; }
   .hero-title-wrap { min-height: 58svh; align-items: start; padding-top: 18vh; }
   .hero-title { font-size: clamp(3.75rem, 19vw, 6.4rem); }
-  .hero-object { top: 55%; left: 56%; width: 69vw; }
+  .hero-object { top: 55%; left: 55%; width: 69vw; }
   .hero-footer { display: block; }
   .statement-title br:nth-child(1) { display: block; }
   .statement-grid,
