@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f3f1ea"/>
+  <circle cx="860" cy="290" r="185" fill="#d8ff3e" stroke="#11110f" stroke-width="3"/>
+  <circle cx="860" cy="290" r="62" fill="#11110f"/>
+  <text x="70" y="110" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#11110f">CHRISTOPHER NEVILLE</text>
+  <text x="70" y="440" font-family="Georgia, serif" font-size="94" fill="#11110f">Software &amp; Systems</text>
+  <text x="72" y="500" font-family="Arial, sans-serif" font-size="24" fill="#11110f">OTTAWA / CANADA — NEVCHR.COM</text>
+</svg>

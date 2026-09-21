@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Christopher Neville is a Computer Science (Honours) co-op student building practical software, systems, and network tools in Ottawa."
+    />
+    <meta name="theme-color" content="#11110f" />
+    <meta property="og:title" content="Christopher Neville — Software & Systems" />
+    <meta
+      property="og:description"
+      content="Selected software, systems, and network projects by Christopher Neville."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nevchr.com/" />
+    <meta property="og:image" content="https://nevchr.com/assets/og-card.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://nevchr.com/" />
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Christopher Neville — Software & Systems</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <a class="wordmark" href="#top" aria-label="Christopher Neville, home">CN<span>.</span></a>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#stack">Stack</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-contact" href="mailto:chris@chrisneville.ca">Email</a>
+    </header>
+
+    <main id="main">
+      <section class="hero section-shell" id="top" aria-labelledby="hero-title">
+        <div class="hero-kicker reveal">
+          <span>Ottawa, Canada</span>
+          <span>Software / Systems / Networks</span>
+        </div>
+
+        <div class="hero-title-wrap">
+          <h1 id="hero-title" class="hero-title" aria-label="Christopher Neville">
+            <span class="hero-line reveal">Christopher</span>
+            <span class="hero-line hero-line-indent reveal">Neville</span>
+          </h1>
+          <div class="hero-object" aria-hidden="true" data-orbit>
+            <div class="hero-disc">
+              <div class="hero-disc-label">CN / 27</div>
+              <div class="hero-disc-core"></div>
+            </div>
+            <span class="orbit orbit-one"></span>
+            <span class="orbit orbit-two"></span>
+          </div>
+        </div>
+
+        <div class="hero-footer reveal">
+          <p>
+            Computer Science (Honours) co-op student at Carleton University, building reliable
+            tools for real systems and the people who use them.
+          </p>
+          <a class="arrow-link" href="#work">View selected work <span aria-hidden="true">↓</span></a>
+        </div>
+      </section>
+
+      <section class="statement dark-section" aria-labelledby="statement-title">
+        <div class="section-shell">
+          <p class="eyebrow reveal">Profile / 01</p>
+          <h2 id="statement-title" class="statement-title reveal">
+            Practical software,<br />considered interfaces,<br />dependable systems.
+          </h2>
+          <div class="statement-grid reveal">
+            <p>
+              My work spans Windows desktop applications, local network tools, and
+              containerized services. I care about clarity at the interface and sound structure
+              underneath it.
+            </p>
+            <p>
+              Alongside software development, more than three years of supervisory experience
+              has shaped how I coordinate work, support people, and solve problems under pressure.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="work section-shell" id="work" aria-labelledby="work-title">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">Selected work / 02</p>
+            <h2 id="work-title">Projects built to be used.</h2>
+          </div>
+          <p>Desktop utilities, network visibility, geospatial workflows, and applied coursework.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-card-wide reveal">
+            <a href="https://github.com/nevchr/SysDeck" aria-label="View SysDeck on GitHub">
+              <div class="project-visual visual-sysdeck" aria-hidden="true">
+                <span class="visual-index">01</span>
+                <div class="sysdeck-window">
+                  <div class="sysdeck-sidebar"></div>
+                  <div class="sysdeck-panel">
+                    <span></span><span></span><span></span><span></span>
+                  </div>
+                  <div class="sysdeck-chart"></div>
+                </div>
+              </div>
+              <div class="project-meta">
+                <div>
+                  <p class="project-type">Windows desktop utility</p>
+                  <h3>SysDeck</h3>
+                </div>
+                <p>
+                  System monitoring, indexed file search, storage analysis, duplicate detection,
+                  and file organization in one modular desktop application.
+                </p>
+                <ul class="tag-list" aria-label="SysDeck technologies">
+                  <li>Python</li><li>PySide6</li><li>SQLite</li><li>psutil</li>
+                </ul>
+                <span class="project-cta">View repository ↗</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card reveal">
+            <a href="https://github.com/nevchr/lan-observer" aria-label="View LAN Observer on GitHub">
+              <div class="project-visual visual-network" aria-hidden="true">
+                <span class="visual-index">02</span>
+                <div class="network-map">
+                  <i></i><i></i><i></i><i></i><i></i><i></i>
+                </div>
+              </div>
+              <div class="project-meta">
+                <div>
+                  <p class="project-type">Local network dashboard</p>
+                  <h3>LAN Observer</h3>
+                </div>
+                <p>
+                  Discovers and tracks devices across a LAN with live status, vendor data,
+                  last-seen records, and known-device classification.
+                </p>
+                <ul class="tag-list" aria-label="LAN Observer technologies">
+                  <li>Python</li><li>Flask</li><li>SQLite</li><li>JavaScript</li>
+                </ul>
+                <span class="project-cta">View repository ↗</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card reveal">
+            <a href="https://github.com/nevchr/TrailTag" aria-label="View TrailTag on GitHub">
+              <div class="project-visual visual-trail" aria-hidden="true">
+                <span class="visual-index">03</span>
+                <div class="trail-path"></div>
+                <div class="trail-pin pin-one"></div>
+                <div class="trail-pin pin-two"></div>
+                <div class="trail-pin pin-three"></div>
+              </div>
+              <div class="project-meta">
+                <div>
+                  <p class="project-type">Geospatial desktop workflow</p>
+                  <h3>TrailTag</h3>
+                </div>
+                <p>
+                  A Windows application for matching photos with GPX track data and writing
+                  location metadata through a focused, local-first workflow.
+                </p>
+                <ul class="tag-list" aria-label="TrailTag technologies">
+                  <li>Python</li><li>Desktop</li><li>GPX</li><li>Metadata</li>
+                </ul>
+                <span class="project-cta">View repository ↗</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card project-card-wide reveal">
+            <a href="https://github.com/nevchr/Protocol-Eclipse" aria-label="View Protocol Eclipse on GitHub">
+              <div class="project-visual visual-eclipse" aria-hidden="true">
+                <span class="visual-index">04</span>
+                <div class="eclipse-sun"></div>
+                <div class="eclipse-planet"></div>
+                <div class="eclipse-grid"></div>
+              </div>
+              <div class="project-meta">
+                <div>
+                  <p class="project-type">Modular course project</p>
+                  <h3>Protocol Eclipse</h3>
+                </div>
+                <p>
+                  A modular Python space-exploration game structured around maintainable systems,
+                  reusable components, and collaborative development.
+                </p>
+                <ul class="tag-list" aria-label="Protocol Eclipse technologies">
+                  <li>Python</li><li>Game systems</li><li>OOP</li><li>Git</li>
+                </ul>
+                <span class="project-cta">View repository ↗</span>
+              </div>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="experience dark-section" id="experience" aria-labelledby="experience-title">
+        <div class="section-shell">
+          <div class="section-heading section-heading-light reveal">
+            <div>
+              <p class="eyebrow">Experience / 03</p>
+              <h2 id="experience-title">Technical thinking.<br />Operational discipline.</h2>
+            </div>
+            <p>
+              Experience coordinating teams and daily operations informs how I approach software:
+              communicate clearly, anticipate failure, and make the next step obvious.
+            </p>
+          </div>
+
+          <article class="experience-row reveal">
+            <div>
+              <p class="experience-number">01</p>
+              <p class="experience-date">June 2023 — Present</p>
+            </div>
+            <div>
+              <h3>Supervisor</h3>
+              <p>Rexall Pharmacy / Ottawa</p>
+            </div>
+            <ul>
+              <li>Coordinate day-to-day front-store operations, staff, inventory, and service.</li>
+              <li>Train new employees on operational procedures, systems, and problem solving.</li>
+              <li>Support both front-store and pharmacy teams through cross-training.</li>
+            </ul>
+          </article>
+
+          <div class="leadership-grid reveal">
+            <article>
+              <p class="eyebrow">Community</p>
+              <h3>Carleton Computer Science Society</h3>
+              <p>Member participating in academic, technical, and professional development events.</p>
+            </article>
+            <article>
+              <p class="eyebrow">Leadership</p>
+              <h3>Baxter Conservation Area Day Camp</h3>
+              <p>80 volunteer hours supporting camper safety, teamwork, and outdoor programming.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="stack section-shell" id="stack" aria-labelledby="stack-title">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">Capabilities / 04</p>
+            <h2 id="stack-title">A focused working stack.</h2>
+          </div>
+          <p>Tools selected for dependable local software, clear interfaces, and maintainable systems.</p>
+        </div>
+
+        <div class="stack-grid">
+          <article class="stack-group reveal">
+            <p>01 / Languages</p>
+            <h3>Python<br />Java<br />JavaScript<br />HTML &amp; CSS</h3>
+          </article>
+          <article class="stack-group reveal">
+            <p>02 / Application</p>
+            <h3>PySide6<br />Flask<br />SQLite<br />Accessible UI</h3>
+          </article>
+          <article class="stack-group reveal">
+            <p>03 / Systems</p>
+            <h3>Linux<br />Windows<br />Docker<br />Networking &amp; DNS</h3>
+          </article>
+          <article class="stack-group reveal">
+            <p>04 / Workflow</p>
+            <h3>Git<br />GitHub<br />VS Code<br />IntelliJ IDEA</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="education" id="education" aria-labelledby="education-title">
+        <div class="section-shell education-grid">
+          <div class="reveal">
+            <p class="eyebrow">Education / 05</p>
+            <h2 id="education-title">Carleton<br />University</h2>
+          </div>
+          <div class="education-detail reveal">
+            <p class="education-program">Bachelor of Computer Science (Honours) / Co-op</p>
+            <p class="education-date">Expected 2029 — Ottawa, Ontario</p>
+            <div class="coursework">
+              <p>Current and relevant coursework</p>
+              <ul>
+                <li>Systems Programming</li>
+                <li>Abstract Data Types &amp; Algorithms</li>
+                <li>Applied Cryptography &amp; Authentication</li>
+                <li>Software Engineering</li>
+                <li>Web Applications</li>
+                <li>Discrete Structures II</li>
+                <li>Linear Algebra II</li>
+                <li>Statistical Modelling I</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact dark-section" id="contact" aria-labelledby="contact-title">
+        <div class="section-shell">
+          <div class="contact-top reveal">
+            <p class="eyebrow">Contact / 06</p>
+            <p>Open to Summer 2027 software, IT, and technical co-op opportunities.</p>
+          </div>
+          <h2 id="contact-title" class="contact-title reveal">Let’s build something<br />useful.</h2>
+          <div class="contact-links reveal">
+            <a href="mailto:chris@chrisneville.ca">chris@chrisneville.ca ↗</a>
+            <a href="https://github.com/nevchr">GitHub ↗</a>
+          </div>
+          <footer class="site-footer">
+            <p>Christopher Neville</p>
+            <p>Ottawa, Canada</p>
+            <button type="button" data-to-top>Back to top ↑</button>
+          </footer>
+        </div>
+      </section>
+    </main>
+
+    <script src="/script.js" defer></script>
+  </body>
+</html>
