@@ -287,14 +287,31 @@ button { color: inherit; font: inherit; }
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 42%;
-  height: 42%;
-  border-top: 1px solid #59a0ff;
-  background: conic-gradient(from 270deg, rgba(37,125,255,.3), transparent 28%);
-  transform-origin: 0 0;
-  animation: network-scan 7s linear infinite;
+  width: 86%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  pointer-events: none;
+  background: conic-gradient(from 90deg, rgba(54,138,255,.34) 0deg, rgba(36,115,231,.16) 22deg, transparent 48deg 360deg);
+  mask-image: radial-gradient(circle, #000 0 72%, transparent 100%);
+  transform: translate(-50%, -50%) rotate(0deg);
+  transform-origin: 50% 50%;
+  animation: network-scan 8.4s linear infinite;
 }
-@keyframes network-scan { to { transform: rotate(1turn); } }
+.network-sweep::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 1px;
+  content: "";
+  background: linear-gradient(90deg, #75b2ff, rgba(55,139,255,.12));
+  box-shadow: 0 0 .8rem rgba(75,156,255,.65);
+  transform-origin: left center;
+}
+@keyframes network-scan {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to { transform: translate(-50%, -50%) rotate(1turn); }
+}
 .network-link { position: absolute; z-index: 2; top: 50%; left: 50%; height: 1px; background: linear-gradient(90deg, #6aa9ff, rgba(59,137,255,.22)); transform-origin: left; }
 .link-one { width: 32%; transform: rotate(-38deg); }
 .link-two { width: 38%; transform: rotate(22deg); }
