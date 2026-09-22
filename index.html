@@ -20,7 +20,7 @@
     <link rel="canonical" href="https://nevchr.com/" />
     <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="/site.webmanifest" />
-    <link rel="stylesheet" href="/styles.css?v=sysdeck-2" />
+    <link rel="stylesheet" href="/styles.css?v=sysdeck-3" />
     <title>Christopher Neville — Software & Systems</title>
   </head>
   <body>
@@ -102,69 +102,55 @@
             <a href="https://github.com/nevchr/SysDeck" aria-label="View SysDeck on GitHub">
               <div class="project-visual visual-sysdeck" aria-hidden="true">
                 <span class="visual-index">01</span>
-                <span class="sysdeck-orbit sysdeck-orbit-one"></span>
-                <span class="sysdeck-orbit sysdeck-orbit-two"></span>
+                <span class="sysdeck-orbit"></span>
                 <div class="sysdeck-window">
                   <div class="sysdeck-titlebar">
-                    <span class="sysdeck-mark">S</span>
-                    <strong>SYSDECK</strong>
-                    <span>LOCAL SYSTEM / 01</span>
+                    <strong><i></i>SYSDECK</strong>
+                    <span>LOCAL SYSTEM / LIVE</span>
                   </div>
                   <div class="sysdeck-shell">
                     <div class="sysdeck-sidebar">
-                      <span class="is-active"><i></i>Overview</span>
-                      <span><i></i>Performance</span>
-                      <span><i></i>Processes</span>
-                      <span><i></i>Storage</span>
-                      <span><i></i>Search</span>
-                      <span><i></i>Files</span>
+                      <span class="is-active">01</span>
+                      <span>02</span>
+                      <span>03</span>
+                      <span>04</span>
                     </div>
                     <div class="sysdeck-dashboard">
                       <div class="sysdeck-heading">
                         <div>
-                          <span>SYSTEM OVERVIEW</span>
-                          <strong>Performance deck</strong>
+                          <span>PERFORMANCE / CPU</span>
+                          <strong>System activity</strong>
                         </div>
                         <span class="sysdeck-live"><i></i>LIVE</span>
                       </div>
-                      <div class="sysdeck-metrics">
-                        <div class="sysdeck-metric">
-                          <span>CPU</span><strong>17<small>%</small></strong>
-                          <i style="--meter: 17%"></i>
+                      <div class="sysdeck-performance">
+                        <div class="sysdeck-reading">
+                          <strong>17<small>%</small></strong>
+                          <span>CPU LOAD</span>
                         </div>
-                        <div class="sysdeck-metric">
-                          <span>MEMORY</span><strong>48<small>%</small></strong>
-                          <i style="--meter: 48%"></i>
-                        </div>
-                        <div class="sysdeck-metric">
-                          <span>STORAGE</span><strong>84<small>%</small></strong>
-                          <i style="--meter: 84%"></i>
-                        </div>
-                        <div class="sysdeck-metric sysdeck-processes">
-                          <span>PROCESSES</span><strong>308</strong>
-                          <small>RUNNING</small>
-                        </div>
+                        <svg viewBox="0 0 720 240" preserveAspectRatio="none">
+                          <defs>
+                            <linearGradient id="sysdeck-fill" x1="0" y1="0" x2="0" y2="1">
+                              <stop offset="0" stop-color="#7d9cff" stop-opacity=".28"></stop>
+                              <stop offset="1" stop-color="#7d9cff" stop-opacity="0"></stop>
+                            </linearGradient>
+                          </defs>
+                          <path class="sysdeck-area" d="M0 188 L40 181 L80 186 L120 147 L160 159 L200 112 L240 126 L280 65 L320 88 L360 78 L400 121 L440 96 L480 143 L520 126 L560 161 L600 110 L640 124 L680 82 L720 97 L720 240 L0 240 Z"></path>
+                          <path class="sysdeck-line" d="M0 188 L40 181 L80 186 L120 147 L160 159 L200 112 L240 126 L280 65 L320 88 L360 78 L400 121 L440 96 L480 143 L520 126 L560 161 L600 110 L640 124 L680 82 L720 97"></path>
+                          <circle class="sysdeck-tracer" r="6">
+                            <animateMotion dur="6s" repeatCount="indefinite" path="M0 188 L40 181 L80 186 L120 147 L160 159 L200 112 L240 126 L280 65 L320 88 L360 78 L400 121 L440 96 L480 143 L520 126 L560 161 L600 110 L640 124 L680 82 L720 97"></animateMotion>
+                          </circle>
+                        </svg>
+                        <div class="sysdeck-chart-scale"><span>60 SEC</span><span>NOW</span></div>
                       </div>
-                      <div class="sysdeck-lower">
-                        <div class="sysdeck-performance">
-                          <div class="sysdeck-section-label"><span>CPU HISTORY</span><span>60 SEC</span></div>
-                          <svg viewBox="0 0 500 150" preserveAspectRatio="none">
-                            <path class="sysdeck-area" d="M0 125 L28 118 L55 121 L84 91 L112 102 L143 69 L171 76 L201 34 L231 49 L260 43 L289 72 L318 55 L348 88 L378 77 L408 104 L438 69 L470 79 L500 47 L500 150 L0 150 Z"></path>
-                            <path class="sysdeck-line" d="M0 125 L28 118 L55 121 L84 91 L112 102 L143 69 L171 76 L201 34 L231 49 L260 43 L289 72 L318 55 L348 88 L378 77 L408 104 L438 69 L470 79 L500 47"></path>
-                          </svg>
-                          <div class="sysdeck-chart-scale"><span>0%</span><span>50%</span><span>100%</span></div>
-                        </div>
-                        <div class="sysdeck-index">
-                          <div class="sysdeck-section-label"><span>LOCAL INDEX</span><span>READY</span></div>
-                          <strong>2,234</strong>
-                          <small>INDEXED FILES</small>
-                          <div class="sysdeck-index-row"><span>Documents</span><i><b style="--index: 76%"></b></i><em>864</em></div>
-                          <div class="sysdeck-index-row"><span>Media</span><i><b style="--index: 52%"></b></i><em>591</em></div>
-                          <div class="sysdeck-index-row"><span>Code</span><i><b style="--index: 34%"></b></i><em>379</em></div>
-                        </div>
+                      <div class="sysdeck-metrics">
+                        <div><span>MEMORY</span><strong>48<small>%</small></strong></div>
+                        <div><span>STORAGE</span><strong>84<small>%</small></strong></div>
+                        <div><span>PROCESSES</span><strong>308</strong></div>
+                        <div><span>LOCAL INDEX</span><strong>2,234<small> FILES</small></strong></div>
                       </div>
                       <div class="sysdeck-status">
-                        <span>● INDEX ONLINE</span><span>UPTIME 05:50:12</span><span>LOCAL-FIRST / WINDOWS</span>
+                        <span>● INDEX READY</span><span>UPTIME 05:50:12</span><span>WINDOWS / LOCAL-FIRST</span>
                       </div>
                     </div>
                   </div>
