@@ -11,7 +11,7 @@
     <meta property="og:title" content="Christopher Neville — Software & Systems" />
     <meta
       property="og:description"
-      content="Selected software, systems, and network projects by Christopher Neville."
+      content="Selected desktop software, local audio, geospatial, and network projects by Christopher Neville."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://nevchr.com/" />
@@ -20,7 +20,7 @@
     <link rel="canonical" href="https://nevchr.com/" />
     <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="/site.webmanifest" />
-    <link rel="stylesheet" href="/styles.css?v=sysdeck-3" />
+    <link rel="stylesheet" href="/styles.css?v=projects-2026-09" />
     <title>Christopher Neville — Software & Systems</title>
   </head>
   <body>
@@ -94,7 +94,7 @@
             <p class="eyebrow">Selected work / 02</p>
             <h2 id="work-title">Projects built to be used.</h2>
           </div>
-          <p>Desktop utilities, network visibility, geospatial workflows, and applied coursework.</p>
+          <p>Local-first desktop software, network visibility, audio exploration, and geospatial tools.</p>
         </div>
 
         <div class="project-grid">
@@ -174,9 +174,114 @@
           </article>
 
           <article class="project-card reveal">
+            <a href="https://github.com/nevchr/Folder-City" aria-label="View Folder City on GitHub">
+              <div class="project-visual visual-foldercity" aria-hidden="true">
+                <span class="visual-index">02</span>
+                <div class="foldercity-window">
+                  <div class="foldercity-titlebar">
+                    <strong><i></i>FOLDER CITY</strong>
+                    <span>LOCAL SCAN / READ ONLY</span>
+                  </div>
+                  <div class="foldercity-workspace">
+                    <div class="foldercity-canvas">
+                      <div class="foldercity-location"><span>ROOT / PROJECTS</span><b>VIEW 01</b></div>
+                      <svg class="foldercity-model" viewBox="0 0 800 480" role="presentation">
+                        <defs>
+                          <linearGradient id="city-building-top" x1="0" y1="0" x2="1" y2="1">
+                            <stop offset="0" stop-color="#c2ebcd" />
+                            <stop offset="1" stop-color="#71b69a" />
+                          </linearGradient>
+                          <linearGradient id="city-building-side" x1="0" y1="0" x2="0" y2="1">
+                            <stop offset="0" stop-color="#4f8d78" />
+                            <stop offset="1" stop-color="#244d48" />
+                          </linearGradient>
+                        </defs>
+                        <path class="city-ground" d="M400 36 738 228 400 422 62 228Z" />
+                        <path class="city-street" d="M62 228 400 422 738 228M170 166l337 195M284 100l337 194M170 290l338-194M284 357l337-194" />
+                        <path class="city-block-outline" d="M134 228 400 76l266 152-266 152Z" />
+                        <g class="city-building city-building-soft">
+                          <path class="city-wall-left" d="m190 217 54 31v61l-54-31z" />
+                          <path class="city-wall-right" d="m244 248 53-31v61l-53 31z" />
+                          <path class="city-roof" d="m190 217 54-31 53 31-53 31z" />
+                          <path class="city-window" d="m206 229v22m17-13v22m17-13v22m17 0v-22m17-13v22" />
+                        </g>
+                        <g class="city-building city-building-tall">
+                          <path class="city-wall-left" d="m294 175 62 36v95l-62-36z" />
+                          <path class="city-wall-right" d="m356 211 62-36v95l-62 36z" />
+                          <path class="city-roof" d="m294 175 62-36 62 36-62 36z" />
+                          <path class="city-window" d="m312 188v22m17-12v22m18-12v22m18-22v22m18-34v22m-71 2v22m17-12v22m18-12v22m18-22v22m18-34v22" />
+                        </g>
+                        <g class="city-building">
+                          <path class="city-wall-left" d="m421 215 52 30v51l-52-30z" />
+                          <path class="city-wall-right" d="m473 245 52-30v51l-52 30z" />
+                          <path class="city-roof" d="m421 215 52-30 52 30-52 30z" />
+                          <path class="city-window" d="m438 227v19m18-9v20m18-10v20m17-31v19" />
+                        </g>
+                        <g class="city-building city-building-soft">
+                          <path class="city-wall-left" d="m516 270 46 26v73l-46-26z" />
+                          <path class="city-wall-right" d="m562 296 49-28v73l-49 28z" />
+                          <path class="city-roof" d="m516 270 49-29 46 27-49 28z" />
+                          <path class="city-window" d="m531 282v25m17-15v26m18-36v25m-35 14v14m17-4v14m18-24v14" />
+                        </g>
+                        <g class="city-building city-building-small">
+                          <path class="city-wall-left" d="m273 298 43 25v41l-43-25z" />
+                          <path class="city-wall-right" d="m316 323 47-27v41l-47 27z" />
+                          <path class="city-roof" d="m273 298 47-27 43 25-47 27z" />
+                          <path class="city-window" d="m288 309v15m17-6v16m17-27v15" />
+                        </g>
+                        <g class="city-building city-building-soft">
+                          <path class="city-wall-left" d="m359 337 38 22v42l-38-22z" />
+                          <path class="city-wall-right" d="m397 359 45-26v42l-45 26z" />
+                          <path class="city-roof" d="m359 337 45-26 38 22-45 26z" />
+                          <path class="city-window" d="m373 348v14m16-5v15m17-24v15" />
+                        </g>
+                        <g class="city-building city-building-tall">
+                          <path class="city-wall-left" d="m423 151 41 24v73l-41-24z" />
+                          <path class="city-wall-right" d="m464 175 42-24v73l-42 24z" />
+                          <path class="city-roof" d="m423 151 42-24 41 24-42 24z" />
+                          <path class="city-window" d="m437 163v18m14-10v18m14-26v18m14 1v18m14-26v18m-56 8v18m14-10v18m14-26v18m14 1v18m14-26v18" />
+                        </g>
+                        <circle class="city-selected" cx="463" cy="261" r="8" />
+                        <path class="city-selection-line" d="M463 261 602 180" />
+                        <g class="city-selection-label"><rect x="602" y="151" width="140" height="48" rx="2" /><text x="616" y="170">DISTRICT 04</text><text x="616" y="187">11 FILES · 2 FOLDERS</text></g>
+                      </svg>
+                      <div class="foldercity-canvas-footer"><span>ORBIT / PAN / ZOOM</span><span>SCANNED LOCALLY</span></div>
+                    </div>
+                    <aside class="foldercity-rail">
+                      <span class="foldercity-rail-label">DISTRICT INDEX</span>
+                      <p class="foldercity-selected"><i></i><span>PROJECTS</span><b>08</b></p>
+                      <p><i></i><span>APPLICATIONS</span><b>12</b></p>
+                      <p><i></i><span>DOCUMENTS</span><b>05</b></p>
+                      <div class="foldercity-rail-rule"></div>
+                      <span class="foldercity-rail-label">SORT BY</span>
+                      <p class="foldercity-filter">FILE TYPE <b>↕</b></p>
+                      <p class="foldercity-filter">SIZE <b>↕</b></p>
+                      <span class="foldercity-local"><i></i>NO FILES UPLOADED</span>
+                    </aside>
+                  </div>
+                </div>
+              </div>
+              <div class="project-meta">
+                <div>
+                  <p class="project-type">Local-first Windows explorer</p>
+                  <h3>Folder City</h3>
+                </div>
+                <p>
+                  An offline Windows explorer that maps folder metadata to an interactive 3D city,
+                  with search, file filters, storage rankings, and view history.
+                </p>
+                <ul class="tag-list" aria-label="Folder City technologies">
+                  <li>Electron</li><li>React</li><li>TypeScript</li><li>Three.js</li>
+                </ul>
+                <span class="project-cta">View repository ↗</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card reveal">
             <a href="https://github.com/nevchr/lan-observer" aria-label="View LAN Observer on GitHub">
               <div class="project-visual visual-network" aria-hidden="true">
-                <span class="visual-index">02</span>
+                <span class="visual-index">03</span>
                 <div class="network-console">
                   <div class="network-console-bar">
                     <span>LAN OBSERVER</span>
@@ -236,12 +341,80 @@
           </article>
 
           <article class="project-card reveal">
-            <a href="https://github.com/nevchr/TrailTag" aria-label="View TrailTag on GitHub">
+            <a href="https://github.com/nevchr/Sound-Constellations" aria-label="View Sound Constellations on GitHub">
+              <div class="project-visual visual-constellation" aria-hidden="true">
+                <span class="visual-index">04</span>
+                <div class="constellation-window">
+                  <div class="constellation-titlebar">
+                    <strong><i></i>SOUND CONSTELLATIONS</strong>
+                    <span>LOCAL LIBRARY / 2D VIEW</span>
+                  </div>
+                  <div class="constellation-workspace">
+                    <div class="constellation-stage">
+                      <span class="constellation-axis axis-horizontal"></span>
+                      <span class="constellation-axis axis-vertical"></span>
+                      <span class="constellation-orbit constellation-orbit-one"></span>
+                      <span class="constellation-orbit constellation-orbit-two"></span>
+                      <svg class="constellation-map" viewBox="0 0 640 440" role="presentation">
+                        <path class="constellation-link" d="M98 309 181 245 238 287 321 186 389 211 448 128 535 176" />
+                        <path class="constellation-link constellation-link-soft" d="M181 245 197 122 321 186 356 83 448 128 482 294 389 211 314 349 238 287 166 357" />
+                        <path class="constellation-link constellation-link-soft" d="M448 128 533 73m-212 113 118 9 95 115m-177-33-67-112" />
+                        <circle class="constellation-node constellation-node-selected" cx="321" cy="186" r="13" />
+                        <circle class="constellation-node node-soft" cx="98" cy="309" r="6" />
+                        <circle class="constellation-node node-soft" cx="181" cy="245" r="8" />
+                        <circle class="constellation-node node-soft" cx="238" cy="287" r="5" />
+                        <circle class="constellation-node node-blue" cx="197" cy="122" r="6" />
+                        <circle class="constellation-node node-blue" cx="356" cy="83" r="8" />
+                        <circle class="constellation-node node-soft" cx="389" cy="211" r="7" />
+                        <circle class="constellation-node node-blue" cx="448" cy="128" r="10" />
+                        <circle class="constellation-node node-soft" cx="535" cy="176" r="6" />
+                        <circle class="constellation-node node-soft" cx="314" cy="349" r="6" />
+                        <circle class="constellation-node node-blue" cx="482" cy="294" r="7" />
+                        <circle class="constellation-node node-soft" cx="166" cy="357" r="5" />
+                        <circle class="constellation-node node-blue" cx="533" cy="73" r="5" />
+                      </svg>
+                      <span class="constellation-map-label label-similarity">ACOUSTIC SIMILARITY</span>
+                      <span class="constellation-map-label label-duration">DURATION →</span>
+                      <span class="constellation-selected-label"><i></i>SELECTED / 01</span>
+                    </div>
+                    <aside class="constellation-inspector">
+                      <span class="constellation-inspector-label">NOW INSPECTING</span>
+                      <strong>field-recording-014.wav</strong>
+                      <span class="constellation-format">WAV · 2:14</span>
+                      <div class="constellation-waveform" aria-hidden="true">
+                        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                      </div>
+                      <div class="constellation-play"><span>PREVIEW</span><b>▶</b></div>
+                      <div class="constellation-neighbours"><span>NEARBY SOUNDS</span><i></i><i></i><i></i></div>
+                      <span class="constellation-local"><i></i>OFFLINE ANALYSIS</span>
+                    </aside>
+                  </div>
+                </div>
+              </div>
+              <div class="project-meta">
+                <div>
+                  <p class="project-type">Offline Windows audio explorer</p>
+                  <h3>Sound Constellations</h3>
+                </div>
+                <p>
+                  Maps local audio samples by measured acoustic similarity, with waveform
+                  previews, nearest neighbours, and an interactive 2D or 3D view.
+                </p>
+                <ul class="tag-list" aria-label="Sound Constellations technologies">
+                  <li>Electron</li><li>React</li><li>TypeScript</li><li>Audio analysis</li>
+                </ul>
+                <span class="project-cta">View repository ↗</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card reveal">
+            <a href="https://github.com/nevchr/PhotoTrace" aria-label="View PhotoTrace on GitHub">
               <div class="project-visual visual-trail" aria-hidden="true">
-                <span class="visual-index">03</span>
+                <span class="visual-index">05</span>
                 <div class="trail-canvas">
                   <div class="trail-map-sheet">
-                    <span class="trail-map-label">TRACK / 08</span>
+                    <span class="trail-map-label">PHOTOTRACE / ROUTE</span>
                     <div class="trail-contours">
                       <i></i><i></i><i></i><i></i><i></i>
                     </div>
@@ -251,7 +424,7 @@
                       <circle cx="282" cy="151" r="9"></circle>
                       <circle cx="429" cy="46" r="9"></circle>
                     </svg>
-                    <div class="trail-match-point"><i></i><span>MATCH POINT 014</span></div>
+                    <div class="trail-match-point"><i></i><span>PHOTO MATCH 014</span></div>
                   </div>
                   <div class="trail-photo-card">
                     <div class="trail-photo-image">
@@ -259,26 +432,26 @@
                       <span class="trail-ridge ridge-back"></span>
                       <span class="trail-ridge ridge-front"></span>
                     </div>
-                    <div class="trail-photo-meta"><span>PHOTO 014</span><b>MATCHED</b></div>
+                    <div class="trail-photo-meta"><span>OUTING 014</span><b>PREVIEW</b></div>
                   </div>
                   <span class="trail-match-line"></span>
                   <div class="trail-readout">
-                    <span>GPX / 14:32:08</span>
-                    <strong>LOCATION<br>WRITTEN</strong>
+                    <span>EXIF / GPS MATCH</span>
+                    <strong>LOCATION<br>READY</strong>
                   </div>
                 </div>
               </div>
               <div class="project-meta">
                 <div>
-                  <p class="project-type">Geospatial desktop workflow</p>
-                  <h3>TrailTag</h3>
+                  <p class="project-type">Geospatial Windows application</p>
+                  <h3>PhotoTrace</h3>
                 </div>
                 <p>
-                  A Windows application for matching photos with GPX track data and writing
-                  location metadata through a focused, local-first workflow.
+                  Matches photo timestamps to GPX routes and writes GPS metadata to new JPEG
+                  copies, with guided review, saved outings, and synchronized maps and galleries.
                 </p>
-                <ul class="tag-list" aria-label="TrailTag technologies">
-                  <li>Python</li><li>Desktop</li><li>GPX</li><li>Metadata</li>
+                <ul class="tag-list" aria-label="PhotoTrace technologies">
+                  <li>Python</li><li>PySide6</li><li>GPX</li><li>EXIF</li>
                 </ul>
                 <span class="project-cta">View repository ↗</span>
               </div>
@@ -288,7 +461,7 @@
           <article class="project-card project-card-wide reveal">
             <a href="https://github.com/nevchr/Protocol-Eclipse" aria-label="View Protocol Eclipse on GitHub">
               <div class="project-visual visual-eclipse" aria-hidden="true">
-                <span class="visual-index">04</span>
+                <span class="visual-index">06</span>
                 <div class="eclipse-sun"></div>
                 <div class="eclipse-planet"></div>
                 <div class="eclipse-grid"></div>
@@ -368,15 +541,15 @@
         <div class="stack-grid">
           <article class="stack-group reveal">
             <p>01 / Languages</p>
-            <h3>Python<br />Java<br />JavaScript<br />HTML &amp; CSS</h3>
+            <h3>Python<br />TypeScript<br />JavaScript<br />Java<br />HTML &amp; CSS</h3>
           </article>
           <article class="stack-group reveal">
             <p>02 / Application</p>
-            <h3>PySide6<br />Flask<br />SQLite<br />Accessible UI</h3>
+            <h3>PySide6<br />Electron<br />React<br />Flask<br />Three.js</h3>
           </article>
           <article class="stack-group reveal">
-            <p>03 / Systems</p>
-            <h3>Linux<br />Windows<br />Docker<br />Networking &amp; DNS</h3>
+            <p>03 / Systems &amp; data</p>
+            <h3>Linux<br />Windows<br />Docker<br />SQLite<br />Networking &amp; DNS</h3>
           </article>
           <article class="stack-group reveal">
             <p>04 / Workflow</p>
